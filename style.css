@@ -1,0 +1,101 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    background-color: #bec7cd;
+}
+
+.container {
+    height: 500px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 1rem 1rem 1.6rem #d1d9e6, -0.6rem -0.6rem 1.6rem #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    justify-content: center;
+
+    .button {
+        height: 320px;
+        width: 270px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+        & button {
+            position: relative;
+            height: 52px;
+            width: 52px;
+            margin: 5px;
+            border-radius: 100%;
+            cursor: pointer;
+            font-size: 1.2rem;
+            font-weight: bolder;
+            border: none;
+            background-color: #fff;
+            box-shadow: 1rem 1rem 1.6rem #d1d9e6, -0.6rem -0.6rem 1.6rem #fff;
+        }
+    }
+}
+
+.display {
+    position: relative;
+    height: 60px;
+    width: 270px;
+    background-color: azure;
+    border-radius: 20px;
+    align-items: right;
+    justify-content: right;
+    margin: 20px 15px;
+    text-align: right;
+    right: 0;
+    font-size: 50px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5), -3px -3px 10px #ffff;
+}
+
+#del {
+    color: red;
+}
+
+#cl {
+    color: rgb(225, 196, 29);
+}
+
+#eq {
+    color: yellowgreen;
+}
+
+#history {
+    background-color: rgb(87, 50, 50);
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+    color: rgb(169, 64, 64);
+    text-align: center;
+    font-size: larger;
+
+}
+
+#displayHistory {
+    position: relative;
+    height: 60px;
+    width: 270px;
+    background-color: azure;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 15px;
+    text-align: center;
+    right: 0;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5), -3px -3px 10px #ffff;
+    display: none;
+}
